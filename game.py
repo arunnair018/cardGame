@@ -159,6 +159,7 @@ class cardGame:
 
     # show players hand
     def showHand(self, player):
+        time.sleep(1)
         print(player, ' : ', self.players[player])
 
 
